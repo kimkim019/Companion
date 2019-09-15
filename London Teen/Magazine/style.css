@@ -368,7 +368,8 @@ textarea:focus {
         color: #231f1f;
         font-weight: 700; }
         .header-area .viral-news-main-menu .classy-navbar .classynav > ul > li > a:hover, .header-area .viral-news-main-menu .classy-navbar .classynav > ul > li > a:focus {
-          color: #e20378; }
+	color: #000000;
+}
     .header-area .viral-news-main-menu .search-btn {
       padding: 15px 40px;
       display: block;
@@ -481,9 +482,11 @@ textarea:focus {
 
 /* :: 6.0 Welcome Slides Area */
 .welcome-slide-area {
-  padding: 60px 0 90px;
-  position: relative;
-  z-index: 1; }
+	padding: 60px 0 90px;
+	position: relative;
+	z-index: 1;
+	background-color: #FFFFFF;
+}
 
 .single-welcome-slide {
   position: relative;
@@ -1335,3 +1338,10 @@ textarea:focus {
       height: 500px; } }
 
 /*# sourceMappingURL=style.css.map */
+.header-area #stickyMenu .classy-nav-container.breakpoint-off .container #viralnewsNav .classy-menu .classynav ul {
+	color: #000000;
+}
+.header-area #stickyMenu .classy-nav-container.breakpoint-off .container #viralnewsNav .classy-menu .classynav ul .active a strong {
+	color: #000000;
+
+}
